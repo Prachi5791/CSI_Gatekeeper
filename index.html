@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gatekeeper</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        background-image: url("present.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: "Times New Roman", serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #b2dffb;
+      }
+
+      .center-line {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 24px;
+        border: 2px solid #2b48b0;
+        text-shadow: 2px 2px 4px #000;
+        position: relative;
+        z-index: 1;
+      }
+
+      .center-line::before,
+      .center-line::after {
+        content: "⚔";
+        padding: 0 10px;
+        color: #243b90;
+      }
+
+      .hidden-paragraphs {
+        display: none;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        width: 0;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center-line">
+      "Your access has been granted. Proceed with caution."
+    </div>
+
+    <div class="hidden-paragraphs">
+
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, excepturi?
+    </p>
+    <p>
+      Right Sentence
+      <a href="https://drive.google.com/file/d/1LH0H5utH8AEoyGqB-u5BzwkfPTHCO3C3/view">"The key is in what you overlook."</a>,
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aliquid quisquam et a.
+    </p>
+    
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod voluptatum maiores pariatur.
+    </p>
+    
+  </div>
+  </body>
+</html>
